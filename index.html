@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <link rel="stylesheet" href="tailwind_config.css" />
     <link rel="stylesheet" href="shared_styles.css" />
     <title>Document</title>
@@ -295,8 +297,64 @@
         </div>
       </div>
     </section>
-    this is header
+    <section
+      class="bg-[url(assets/news-letter-bg.png)] bg-cover bg-no-repeat bg-center flex justify-center mt-9 md:mt-24"
+    >
+      <div class="div mt-28 mb-12 md:mb-28">
+        <div class="space-y-3 md:space-y-6 text-center">
+          <h1 class="noto-serif-font font-bold text-xl md:text-5xl text-white">
+            Join the colorful Bunch
+          </h1>
+          <div class="flex">
+            <input
+              type="text"
+              placeholder="write email"
+              class="bg-white px-0.5 h-10 md:w-xl"
+            />
+            <button class="bg-[#E95A08] text-white px-1 md:px-7">
+              subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="max-w-[1140px] mx-auto px-4">
+      <div class="footer-div grid grid-cols-4 mt-12 mb-12 gap-x-7">
+        <div class="footer-des mr-4 flex flex-col space-y-2.5 justify-center">
+          <div><img src="assets/logo.png" alt="" /></div>
+
+          <p class="inter-font font-regular text-xl text-[rgba(0,0,0,0.5)]">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop.
+          </p>
+        </div>
+        <div class="footer-link-one">
+          <ul class="space-y-7">
+            <li class="text-[rgba(107,114,128,1)]"><a href="">Home</a></li>
+            <li class="text-[rgba(107,114,128,1)]"><a href=""></a>About us</li>
+            <li class="text-[rgba(107,114,128,1)]"><a href=""></a>Blog</li>
+            <li class="text-[rgba(107,114,128,1)]"><a href=""></a>FAQ</li>
+            <li class="text-[rgba(107,114,128,1)]">
+              <a href=""></a>Contact us
+            </li>
+          </ul>
+        </div>
+        <div class="footer-link-two">
+          <ul class="space-y-7">
+            <li class="text-[rgba(107,114,128,1)]">Feature</li>
+            <li class="text-[rgba(107,114,128,1)]">Pricing</li>
+            <li class="text-[rgba(107,114,128,1)]">Privacy Policy</li>
+            <li class="text-[rgba(107,114,128,1)]">Terms and Services</li>
+            <li class="text-[rgba(107,114,128,1)]">Hlep center</li>
+          </ul>
+        </div>
+        <div class="footer-icons flex justify-around">
+          <div><img src="assets/icon-facebook.png" alt="" /></div>
+          <div><img src="assets/icon-linkedin.png" alt="" /></div>
+          <div><img src="assets/icon-twitter.png" alt="" /></div>
+          <div><img src="assets/icon-youtube.png" alt="" /></div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
-<!-- w-[366px] h-[205px] -->
-<!-- w-[753px] h-[423px] -->
